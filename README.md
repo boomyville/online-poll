@@ -10,4 +10,4 @@ Upload to www folder of your web server
 
 Run install.php in your browser. Delete after installation.
 
-Use adminer.php to play around with database. Use tinyfilemanager.php to remotely access files
+Use [adminer.php](https://www.adminer.org/) to play around with database. Use [tinyfilemanager.php](https://tinyfilemanager.github.io/) to remotely access files
