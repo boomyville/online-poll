@@ -1,0 +1,118 @@
+body {
+  font-family: 'Fira Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #ffcc44;
+    padding: 24px;
+    margin: 10px;
+    max-width: 80%;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: #ffcc44;
+    padding: 8px;
+    margin: 8px;
+    max-width: 80%;
+}
+
+@media (max-width: 960px)
+{ .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.banner {
+text-align: center;
+}
+.box img {
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+
+
+/* Style individual form elements */
+.form {
+    width: 300px;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Style the select dropdowns */
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Add hover effect to form elements */
+.form:hover,
+select:hover {
+    border-color: #555;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add hover effect to the submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Disable the "Image URL" input field */
+#image_url {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+/* Disable the "Random" category option */
+#category option[disabled] {
+    color: #888;
+}
+
+/* Add some spacing between form rows */
+.row {
+    margin-bottom: 4px;
+}
