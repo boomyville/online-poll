@@ -1,5 +1,8 @@
 # online-poll
 A PHP / MySQL / Chart.js framework for creating web polls / quizzes
+
+[Live Demo](https://kevinteong.duckdns.org)
+
 ![Front page](https://github.com/boomyville/online-poll/blob/main/pic1.png?raw=true)
 
 # Why
